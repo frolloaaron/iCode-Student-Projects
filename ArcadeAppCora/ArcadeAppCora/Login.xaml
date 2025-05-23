@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppCora.Login"
+             Title="Login"
+             BackgroundColor="Aqua"
+             >
+    <VerticalStackLayout>
+        <Label 
+            Text="Login"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry
+            x:Name="UsernameEntry"
+            Placeholder="Username: "
+            TextColor="Black"
+            BackgroundColor="LightGray"
+            />
+        <Entry
+            x:Name="PasswordEntry"
+            Placeholder="Password: "
+            BackgroundColor="LightGray"
+            TextColor="Black"
+            />
+        <Button
+            x:Name="LoginButton"
+            Text="Play!"
+            Clicked="LoginButton_Clicked"
+            Margin="0, 20, 0, 0"
+            />
+        <Button
+            x:Name="ToSignButton"
+            Clicked="ToSignButton_Clicked"
+            Text="Sign up if you don't have an acount and don't lie!"
+            Margin="0, 20, 0, 0"
+            />
+    </VerticalStackLayout>
+</ContentPage>

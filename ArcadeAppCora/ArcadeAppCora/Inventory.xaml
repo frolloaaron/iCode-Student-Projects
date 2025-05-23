@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppCora.Inventory"
+             Title="Inventory"
+             BackgroundColor="Aqua"
+             >
+    <VerticalStackLayout>
+        <Label 
+            Text=""
+            x:Name="BlastoiseLabel"
+            FontSize="50"
+            />
+        <Label 
+            Text=""
+            x:Name="CharizardLabel"
+            FontSize="50"/>
+        <Label 
+            Text=""
+            x:Name="GyaradosLabel"
+            FontSize="50"/>
+        <Label 
+             Text=""
+             x:Name="LaprasLabel"
+             FontSize="50" />
+        <Label 
+             Text=""
+             x:Name="LunalaLabel"
+             FontSize="50"
+            />
+        <Label 
+              Text=""
+              x:Name="MewtwoLabel"
+              FontSize="50"
+            />
+        <Label 
+              Text=""
+              x:Name="PikachuLabel"
+              FontSize="50"
+            />
+        <Label 
+              Text=""
+              x:Name="PsyduckLabel"
+              FontSize="50"   
+            />
+
+    </VerticalStackLayout>
+</ContentPage>

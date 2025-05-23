@@ -1,0 +1,56 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppCora.Weather"
+             xmlns:vm="clr-namespace:ArcadeAppCora.Models"
+             x:DataType="vm:WeatherInfo"
+             Title="Weather">
+    <VerticalStackLayout
+        BackgroundColor="Aqua"
+        >
+        <Label
+            Text="Weather"
+            FontSize="22"
+            HorizontalOptions="Center"
+            />
+
+        <Entry
+            x:Name="City"
+           BackgroundColor="White"
+            Text="{Binding City}"
+           Placeholder="City"
+           WidthRequest="250"
+            Margin="0, 50, 0, 0"
+            />
+        <Entry
+            x:Name="State"
+           BackgroundColor="White"
+            Text="{Binding State_country}"
+           Placeholder="State/Country"
+           WidthRequest="250"
+            />
+        <Button
+           x:Name="GetWeather"
+           WidthRequest="300"
+           Text="Get the weather"
+           BackgroundColor="White"
+           TextColor="Black"
+           Margin="10"
+           Command="{Binding GetWeatherInfoCommand}"
+            />
+
+        <Image
+            Source="{Binding Weather_icon}"
+            x:Name="WeatherImage"
+            WidthRequest="200"
+            HeightRequest="200"
+            />
+        <Label
+            x:Name="TempLabel"
+            Text="{Binding Temperature}"
+            FontSize="22"
+            HorizontalOptions="Center"
+            />
+
+
+    </VerticalStackLayout>
+</ContentPage>

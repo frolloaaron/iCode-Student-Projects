@@ -1,0 +1,1 @@
+C:\Users\cafis\source\repos\ArcadeAppCora\ArcadeAppCora\ArcadeAppCora.csproj;x64

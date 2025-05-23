@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppCora.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="Arcade App"
+                FontSize="50"
+                HorizontalOptions="Center"
+                TextColor="Purple"
+                />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="0" Grid.Column="0">
+                    <ImageButton
+                 Source="dotnet_bot.png"
+                 WidthRequest="600"
+                 HeightRequest="400"
+                 x:Name="Antebellum"
+                 Clicked="Antebellum_Clicked"
+                 />
+                    <Label 
+                Text="Quiz App"
+                FontSize="30"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="This is a quiz app! Answer all the quesion correctly to get the high score!"
+                FontSize="20"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Rating: 10/10"
+                FontSize="25"
+                HorizontalOptions="Start"       
+                />
+                </VerticalStackLayout>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="0" Grid.Column="1">
+                    <ImageButton
+                        Source="Forest.jpg"
+                        WidthRequest="600"
+                        HeightRequest="400"
+                        x:Name="ImageButton2"
+                        Clicked="ImageButton2_Clicked"
+                 />
+                    <Label 
+                Text="Storybook App"
+                FontSize="30"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Minecraft story book page"
+                FontSize="20"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Rating: 10/10"
+                FontSize="25"
+                HorizontalOptions="Start"       
+                />
+                </VerticalStackLayout>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="1" Grid.Column="0">
+                    <ImageButton
+                        x:Name="PlatformButton"
+                        Source="mario.jpg"
+                        WidthRequest="600"
+                        HeightRequest="400"
+                        Clicked="PlatformButton_Clicked"
+                    />
+                    <Label 
+                        Text="Platform Game"
+                        FontSize="30"
+                        HorizontalOptions="Start"       
+                    />
+                    <Label 
+                        Text="jump on the platforms"
+                        FontSize="20"
+                        HorizontalOptions="Start"       
+                    />
+                    <Label 
+                        Text="Rating: 10/10"
+                        FontSize="25"
+                        HorizontalOptions="Start"       
+                    />
+                </VerticalStackLayout>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="1" Grid.Column="1">
+                    <ImageButton
+                        x:Name="Clicker_Button"
+                        Source="clicker.png"
+                        WidthRequest="600"
+                        HeightRequest="400"
+                        Clicked="Clicker_Button_Clicked"
+                 />
+                    <Label 
+                Text="Mushroom Clicker game"
+                FontSize="30"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="This is a Mushroom Clicker Game! Click on the Mushroom to gain points.Also their will be upgrades."
+                FontSize="20"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Rating: 10/10"
+                FontSize="25"
+                HorizontalOptions="Start"       
+                />
+                </VerticalStackLayout>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="2" Grid.Column="0">
+                    <ImageButton
+                Source="backofp.jpg"
+                WidthRequest="600"
+                HeightRequest="400"
+                x:Name="Pokemon_Button"
+                Clicked="Pokemon_Button_Clicked"
+                
+                 />
+                    <Label 
+                Text="Pokemon packs"
+                FontSize="30"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="this is a pokemon carde game open pokemon packs to see whats inside"
+                FontSize="20"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Rating: 10/10"
+                FontSize="25"
+                HorizontalOptions="Start"       
+                />
+                </VerticalStackLayout>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="2" Grid.Column="1">
+                    <ImageButton
+                 Source="sun.jpg"
+                 WidthRequest="600"
+                 HeightRequest="400"
+                 x:Name="WeatherButton"
+                 Clicked="WeatherButton_Clicked"
+                 />
+                    <Label 
+                Text="Weather App"
+                FontSize="30"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Want to know what the weather is? I'd recommend this app to help you out!"
+                FontSize="20"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Rating: 10/10"
+                FontSize="25"
+                HorizontalOptions="Start"       
+                />
+                </VerticalStackLayout>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="3" Grid.Column="0">
+                    <ImageButton
+                 Source="tictactoe.png"
+                 WidthRequest="600"
+                 HeightRequest="400"
+                 x:Name="TicTacToe"
+                 Clicked="TicTacToe_Clicked"
+                 />
+                    <Label 
+                Text="Tic Tac Toe"
+                FontSize="30"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Tic Tac Toe App"
+                FontSize="20"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Rating: 10/10"
+                FontSize="25"
+                HorizontalOptions="Start"       
+                />
+                </VerticalStackLayout>
+                <VerticalStackLayout WidthRequest="600" Grid.Row="3" Grid.Column="1">
+                    <ImageButton
+                 Source="checkers.jpg"
+                 WidthRequest="600"
+                 HeightRequest="400"
+                 x:Name="Checkers"
+                 Clicked="Checkers_Clicked"
+                 />
+                    <Label 
+                Text="Checkers"
+                FontSize="30"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Its checkers"
+                FontSize="20"
+                HorizontalOptions="Start"       
+                />
+                    <Label 
+                Text="Rating: 10/10"
+                FontSize="25"
+                HorizontalOptions="Start"       
+                />
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

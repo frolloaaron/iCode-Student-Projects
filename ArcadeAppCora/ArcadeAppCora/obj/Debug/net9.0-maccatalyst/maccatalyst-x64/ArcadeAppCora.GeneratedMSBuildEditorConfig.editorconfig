@@ -1,0 +1,121 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ArcadeAppCora
+build_property.ProjectDir = C:\Users\cafis\source\repos\ArcadeAppCora\ArcadeAppCora\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Checkers.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Checkers.xaml
+build_metadata.AdditionalFiles.TargetPath = Checkers.xaml
+build_metadata.AdditionalFiles.RelativePath = Checkers.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Inventory.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Inventory.xaml
+build_metadata.AdditionalFiles.TargetPath = Inventory.xaml
+build_metadata.AdditionalFiles.RelativePath = Inventory.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Mushroom_Clicker.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Mushroom_Clicker.xaml
+build_metadata.AdditionalFiles.TargetPath = Mushroom_Clicker.xaml
+build_metadata.AdditionalFiles.RelativePath = Mushroom_Clicker.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Platform_HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Platform_HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Platform_HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Platform_HomePage.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Platform_MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Platform_MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Platform_MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Platform_MainPage.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Pokemon_Cards.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Pokemon_Cards.xaml
+build_metadata.AdditionalFiles.TargetPath = Pokemon_Cards.xaml
+build_metadata.AdditionalFiles.RelativePath = Pokemon_Cards.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/SignUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.SignUp.xaml
+build_metadata.AdditionalFiles.TargetPath = SignUp.xaml
+build_metadata.AdditionalFiles.RelativePath = SignUp.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Storybook_Homepage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Storybook_Homepage.xaml
+build_metadata.AdditionalFiles.TargetPath = Storybook_Homepage.xaml
+build_metadata.AdditionalFiles.RelativePath = Storybook_Homepage.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Storybook_Mainpage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Storybook_Mainpage.xaml
+build_metadata.AdditionalFiles.TargetPath = Storybook_Mainpage.xaml
+build_metadata.AdditionalFiles.RelativePath = Storybook_Mainpage.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/TicTacToe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.TicTacToe.xaml
+build_metadata.AdditionalFiles.TargetPath = TicTacToe.xaml
+build_metadata.AdditionalFiles.RelativePath = TicTacToe.xaml
+
+[C:/Users/cafis/source/repos/ArcadeAppCora/ArcadeAppCora/Weather.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppCora.Weather.xaml
+build_metadata.AdditionalFiles.TargetPath = Weather.xaml
+build_metadata.AdditionalFiles.RelativePath = Weather.xaml

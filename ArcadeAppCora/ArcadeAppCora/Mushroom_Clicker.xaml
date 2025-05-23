@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppCora.Mushroom_Clicker"
+             Title="Mushroom_Clicker">
+    <AbsoluteLayout BackgroundColor="Aqua">
+        <ImageButton
+            BackgroundColor="Aqua"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.25, 0.5, AutoSize, AutoSize"
+            x:Name="Mushroom"
+            Source="goomba_nobg.png"
+            HeightRequest="400"
+            WidthRequest="400"
+            Clicked="Mushroom_Clicked"  
+            />
+        <Label
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.25, 0, AutoSize, AutoSize"
+           x:Name="Mushroom_Counter" 
+            Text="Mushroom: 0"
+            FontSize="50"
+            HorizontalOptions="Center"
+            />
+
+        <VerticalStackLayout
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.8, 0.5, AutoSize, AutoSize"
+            >
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 0, 0, 10">
+                <Button
+                x:Name="FireballButton"
+                Text="Fireball for 20 Mushrooms"
+                Clicked="FireballButton_Clicked"
+                />
+                <Label
+                x:Name="FireballLabel"
+                Text="Owned: 0"
+                VerticalOptions="Center"
+                />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 0, 0, 10">
+                <Button
+                x:Name="CatButton"
+                Text="Cat for 70 Mushrooms"
+                Clicked="CatButton_Clicked"
+                />
+                <Label
+                x:Name="CatLabel"
+                Text="Owned: 0"
+                VerticalOptions="Center"
+                />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 0, 0, 10">
+                <Button
+                 x:Name="MouseButton"
+                 Text="Mouse for 100 Mushrooms"
+                 Clicked="MouseButton_Clicked"
+                 />
+                <Label
+                 x:Name="MouseLabel"
+                 Text="Owned: 0"
+                 VerticalOptions="Center"
+     />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 0, 0, 10">
+                <Button
+                 x:Name="MarioMushroomButton"
+                 Text="MarioMushroom for 250 Mushrooms"
+                 Clicked="MarioMushroomButton_Clicked"
+                 />
+                <Label
+                 x:Name="MarioMushroomLabel"
+                 Text="Owned: 0"
+                 VerticalOptions="Center"
+                  />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 0, 0, 10">
+                <Button
+                  x:Name="MarioShoesButton"
+                  Text="MarioShoes for 375 Mushrooms"
+                  Clicked="MarioShoesButton_Clicked"
+                  />
+                <Label
+                  x:Name="MarioShoesLabel"
+                  Text="Owned: 0"
+                  VerticalOptions="Center"
+                   />   
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+    </AbsoluteLayout>
+</ContentPage>

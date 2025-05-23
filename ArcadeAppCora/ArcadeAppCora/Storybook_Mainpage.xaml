@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppCora.Storybook_Mainpage"
+             Title="Storybook_Mainpage">
+    
+    <ScrollView x:Name="scrollview">
+        <VerticalStackLayout>
+            <Grid x:Name="Page_1">
+                <Image
+                x:Name="Page_1_IMG"
+                Source="forest.jpg"
+                Aspect="AspectFill"
+                HorizontalOptions="FillAndExpand"
+                MaximumHeightRequest="750"
+              />
+                <Button
+                  x:Name="Page_1_ToggleButton"
+                  Text="Toggle Text"
+                  WidthRequest="500"
+                  HeightRequest="40"
+                  BackgroundColor="LightGray"
+                  TextColor="Black"
+                  FontSize="15"
+                  VerticalOptions="Start"
+                  Margin="0, 10, 0, 0"
+                  Clicked="Page_1_ToggleButton_Clicked"
+                />
+                <Border
+                x:Name="Page_1_TextBox" 
+                WidthRequest="500"
+                HeightRequest="150"
+                BackgroundColor="Red"
+                Stroke="Black"
+                StrokeThickness="3"
+                StrokeShape="RoundRectangle 40,40,40,40"
+                VerticalOptions="Start"
+                Margin="0, 80, 0, 0"
+                >
+                    <Label
+                 x:Name="Page_1_Text"
+                Text="You just logged on to a new minecraft server what do you do first ?"
+                TextColor="Black"
+                FontSize="24"
+                Padding="10"
+              />
+                </Border>
+                <Button
+              x:Name="Page_1_Choice1"
+              Text="Get Dirt"
+              WidthRequest="300"
+              HeightRequest="75"
+              BackgroundColor="LightGray"
+              TextColor="Black"
+              FontSize="20"
+              VerticalOptions="End"
+              Margin="0, 0, 0, 200"
+              Clicked="Page_1_Choice1_Clicked"
+              />
+                <Button
+              x:Name="Page_1_Choice2"
+              Text="Get Wood"
+              WidthRequest="300"
+              HeightRequest="75"
+              BackgroundColor="LightGray"
+              TextColor="Black"
+              FontSize="20"
+              VerticalOptions="End"
+              Margin="0, 0, 0, 100"
+              Clicked="Page_1_Choice2_Clicked"
+              />
+            </Grid>
+
+            <Grid x:Name="Page_2a" IsVisible="false">
+                <Image
+                x:Name="Page_2a_IMG"
+                Source="forest.jpg"
+                Aspect="AspectFill"
+                HorizontalOptions="FillAndExpand"
+                MaximumHeightRequest="750"
+              />
+                <Border
+                x:Name="Page_2a_TextBox" 
+                WidthRequest="500"
+                HeightRequest="250"
+                BackgroundColor="Red"
+                Stroke="Black"
+                StrokeThickness="3"
+                StrokeShape="RoundRectangle 40,40,40,40"
+                VerticalOptions="Start"
+                Margin="0, 80, 0, 0"
+                >
+                    <Label
+                 x:Name="Page_2a_Text"
+                Text="the end because geting dirt would take forever like till night and when it is night time the mobs would kill you but if you got wood you could get tools to fight and kill the mobs so you could eat the flesh and survive the night. "
+                TextColor="Black"
+                FontSize="24"
+                Padding="10"
+              />
+                </Border>
+
+                <Button
+              x:Name="Ending1"
+              Text="Restart"
+              WidthRequest="300"
+              HeightRequest="75"
+              BackgroundColor="LightGray"
+              TextColor="Black"
+              FontSize="20"
+              VerticalOptions="End"
+              Margin="0, 0, 0, 100"
+              Clicked="Ending1_Clicked"
+              />
+            </Grid>
+
+            <Grid x:Name="Page_2b" IsVisible="false">
+                <Image
+                    x:Name="Page_2b_IMG"
+                    Source="forest.jpg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    MaximumHeightRequest="750"
+                />
+                <Button
+                     x:Name="Page_2b_ToggleButton"
+                     Text="Toggle Text"
+                     WidthRequest="500"
+                     HeightRequest="40"
+                     BackgroundColor="LightGray"
+                     TextColor="Black"
+                     FontSize="15"
+                     VerticalOptions="Start"
+                     Margin="0, 10, 0, 0"
+                     Clicked="Page_2b_ToggleButton_Clicked"
+                />
+                <Border
+                    x:Name="Page_2b_TextBox" 
+                    WidthRequest="500"
+                    HeightRequest="150"
+                    BackgroundColor="Red"
+                    Stroke="Black"
+                    StrokeThickness="3"
+                    StrokeShape="RoundRectangle 40,40,40,40"
+                    VerticalOptions="Start"
+                    Margin="0, 80, 0, 0"
+                >
+                    <Label
+                        x:Name="Page_2b_Text"
+                        Text="After you get wood to get tools and you survived the night you have no food or shelter which one do first"
+                        TextColor="Black"
+                        FontSize="24"
+                        Padding="10"
+                    />
+                </Border>
+                <Button
+                    x:Name="Page_2b_Choice1"
+                    Text="food"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 200"
+                    Clicked="Page_2b_Choice1_Clicked"
+                />
+                <Button
+                    x:Name="Page_2b_Choice2"
+                    Text="shelter"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 100"
+                    Clicked="Page_2b_Choice2_Clicked"
+                />
+            </Grid>
+
+            <Grid x:Name="Page_3a" IsVisible="false">
+                <Image
+                    x:Name="Page_3a_IMG"
+                    Source="forest.jpg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    MaximumHeightRequest="750"
+                />
+                <Button
+                     x:Name="Page_3a_ToggleButton"
+                     Text="Toggle Text"
+                     WidthRequest="500"
+                     HeightRequest="40"
+                     BackgroundColor="LightGray"
+                     TextColor="Black"
+                     FontSize="15"
+                     VerticalOptions="Start"
+                     Margin="0, 10, 0, 0"
+                     Clicked="Page_3a_ToggleButton_Clicked"
+                />
+                <Border
+                    x:Name="Page_3a_TextBox" 
+                    WidthRequest="500"
+                    HeightRequest="150"
+                    BackgroundColor="Red"
+                    Stroke="Black"
+                    StrokeThickness="3"
+                    StrokeShape="RoundRectangle 40,40,40,40"
+                    VerticalOptions="Start"
+                    Margin="0, 80, 0, 0"
+                >
+                    <Label
+                        x:Name="Page_3a_Text"
+                        Text="after you get food what do now"
+                        TextColor="Black"
+                        FontSize="24"
+                        Padding="10"
+                    />
+                </Border>
+                <Button
+                    x:Name="Page_3a_Choice1"
+                    Text="stone tools"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 200"
+                    Clicked="Page_3a_Choice1_Clicked"
+                />
+                <Button
+                    x:Name="Page_3a_Choice2"
+                    Text="chest"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 100"
+                    Clicked="Page_3a_Choice2_Clicked"
+                />
+            </Grid>
+
+            <Grid x:Name="Page_3b" IsVisible="false">
+                <Image
+                    x:Name="Page_3b_IMG"
+                    Source="forest.jpg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    MaximumHeightRequest="750"
+                />
+                <Border
+                    x:Name="Page_3b_TextBox" 
+                    WidthRequest="500"
+                    HeightRequest="250"
+                    BackgroundColor="Red"
+                    Stroke="Black"
+                    StrokeThickness="3"
+                    StrokeShape="RoundRectangle 40,40,40,40"
+                    VerticalOptions="Start"
+                    Margin="0, 80, 0, 0"
+                >
+                    <Label
+                        x:Name="Page_3b_Text"
+                        Text="The End you would die of hunger (ps) you ran out of food from the other night"
+                        TextColor="Black"
+                        FontSize="24"
+                        Padding="10"
+                    />
+                </Border>
+
+                <Button
+                      x:Name="Ending2"
+                      Text="Restart"
+                      WidthRequest="300"
+                      HeightRequest="75"
+                      BackgroundColor="LightGray"
+                      TextColor="Black"
+                      FontSize="20"
+                      VerticalOptions="End"
+                      Margin="0, 0, 0, 100"
+                      Clicked="Ending2_Clicked"
+                />
+            </Grid>
+
+            <Grid x:Name="Page_4a" IsVisible="false">
+                <Image
+                    x:Name="Page_4a_IMG"
+                    Source="forest.jpg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    MaximumHeightRequest="750"
+                />
+                <Border
+                    x:Name="Page_4a_TextBox" 
+                    WidthRequest="500"
+                    HeightRequest="250"
+                    BackgroundColor="Red"
+                    Stroke="Black"
+                    StrokeThickness="3"
+                    StrokeShape="RoundRectangle 40,40,40,40"
+                    VerticalOptions="Start"
+                    Margin="0, 80, 0, 0"
+                >       
+                    <Label
+                        x:Name="Page_4a_Text"
+                        Text="The End you waste your time on something ussless at the time"
+                        TextColor="Black"
+                        FontSize="24"
+                        Padding="10"
+                    />
+                </Border>
+
+                <Button
+                      x:Name="Ending3"
+                      Text="Restart"
+                      WidthRequest="300"
+                      HeightRequest="75"
+                      BackgroundColor="LightGray"
+                      TextColor="Black"
+                      FontSize="20"
+                      VerticalOptions="End"
+                      Margin="0, 0, 0, 100"
+                      Clicked="Ending3_Clicked"
+                />
+            </Grid>
+
+            <Grid x:Name="Page_4b" IsVisible="false">
+                <Image
+                    x:Name="Page_4b_IMG"
+                    Source="mine.JPEG"
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    MaximumHeightRequest="750"
+                />
+                <Border
+                    x:Name="Page_4b_TextBox" 
+                    WidthRequest="500"
+                    HeightRequest="250"
+                    BackgroundColor="Red"
+                    Stroke="Black"
+                    StrokeThickness="3"
+                    StrokeShape="RoundRectangle 40,40,40,40"
+                    VerticalOptions="Start"
+                    Margin="0, 80, 0, 0"
+                >
+                    <Label
+                        x:Name="Page_4b_Text"
+                        Text="yay you survived but the end your mom called you for dinner."
+                        TextColor="Black"
+                        FontSize="24"
+                        Padding="10"
+                    />
+                </Border>
+
+                <Button
+                      x:Name="Ending4"
+                      Text="Restart"
+                      WidthRequest="300"
+                      HeightRequest="75"
+                      BackgroundColor="LightGray"
+                      TextColor="Black"
+                      FontSize="20"
+                      VerticalOptions="End"
+                      Margin="0, 0, 0, 100"
+                      Clicked="Ending4_Clicked"
+                />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
