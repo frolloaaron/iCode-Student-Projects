@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppZoe.Platform_HomePage"
+             Title="Platform_HomePage">
+    <Grid SizeChanged="Grid_SizeChanged">
+        <Image
+        Source="sky.jpg"
+        Aspect="AspectFill"
+        />
+        <Label
+        x:Name="Title"
+        TextColor="Black"
+        Text="Platformer Game"
+        FontSize="75"
+        VerticalOptions="Start"
+        HorizontalOptions="Center"
+        Margin="0, 100, 0, 100"
+        />
+        <Button
+        x:Name="Button1"
+        Text="Start Game"
+        WidthRequest="300"
+        HeightRequest="75"
+        BackgroundColor="LightGray"
+        TextColor="Black"
+        FontSize="20"
+        VerticalOptions="End"
+        Margin="0, 0, 0, 300"
+        Clicked="Button1_Clicked"
+        />
+        <Button
+        x:Name="Button2"
+        Text="High Scores"
+        WidthRequest="300"
+        HeightRequest="75"
+        BackgroundColor="LightGray"
+        TextColor="Black"
+        FontSize="20"
+        VerticalOptions="End"
+        Margin="0, 0, 0, 200"
+        />
+        <Button
+        x:Name="Button3"
+        Text="Go Back"
+        WidthRequest="300"
+        HeightRequest="75"
+        BackgroundColor="LightGray"
+        TextColor="Black"
+        FontSize="20"
+        VerticalOptions="End"
+        Margin="0, 0, 0, 100"
+        Clicked="Button3_Clicked"
+        />
+    </Grid>
+</ContentPage>

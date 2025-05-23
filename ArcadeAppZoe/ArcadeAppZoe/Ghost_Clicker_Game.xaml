@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppZoe.Ghost_Clicker_Game"
+             Title="Ghost_Clicker_Game">
+    <AbsoluteLayout
+        BackgroundColor="DarkSlateGray"
+        >
+        <VerticalStackLayout>
+            <ImageButton
+            x:Name="Bartholomew"
+            Source="ghost_nobg.png"
+            Clicked="Bartholomew_Clicked"
+                        BackgroundColor="DarkSlateGray"
+            />
+            <Label
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0, 0, AutoSize, AutoSize"
+            x:Name="GhostCounter"
+            HorizontalOptions="Center"
+            Text="Ghost: 0"
+            FontSize="Large"
+            FontAttributes="Bold"
+            FontFamily="times new roman"
+            />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="1, 0.5, AutoSize, AutoSize"
+            >
+            <HorizontalStackLayout x:Name="VacuumDisplay" HorizontalOptions="Center">
+                <Image
+                    Source="vacuum.jpg"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                />
+                <Button
+                x:Name="VacuumButton"
+                Text="Vacuum | 100 ghosts"
+                Clicked="VacuumButton_Clicked"
+                BackgroundColor="GhostWhite"
+                TextColor="Black"
+                />
+                <Label
+                x:Name="VacuumLabel"
+                Text="Owned 0"
+                VerticalOptions="Center"
+                    FontAttributes="Bold"
+                />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout x:Name="RadarDisplay" HorizontalOptions="Center">
+                <Image Source="radar.jpg"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    />
+                <Button
+                x:Name="RadarButton"
+                Text="Radar | 500 ghosts"
+                Clicked="RadarButton_Clicked"
+                BackgroundColor="GhostWhite"
+                TextColor="Black"
+                />
+                <Label
+                x:Name="RadarLabel"
+                Text="Owned 0"
+                VerticalOptions="Center"
+                    FontAttributes="Bold"
+                />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout x:Name="CleanerDisplay" HorizontalOptions="Center">
+                <Image Source="cleaner.gif"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    />
+                <Button
+                    x:Name="CleanerButton"
+                    Text="Cleaner | 750 ghosts"
+                    Clicked="CleanerButton_Clicked"
+                    BackgroundColor="GhostWhite"
+                    TextColor="Black"
+                    />
+                <Label
+                    x:Name="CleanerLabel"
+                    Text="Owned 0"
+                    VerticalOptions="Center"
+                        FontAttributes="Bold"
+                    />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout x:Name="GlovesDisplay" HorizontalOptions="Center">
+                <Image Source="gloves.jpg"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    />
+                <Button
+                    x:Name="GlovesButton"
+                    Text="Gloves | 1000 ghosts"
+                    Clicked="GlovesButton_Clicked"
+                    BackgroundColor="GhostWhite"
+                    TextColor="Black"
+                    />
+                <Label
+                    x:Name="GlovesLabel"
+                    Text="Owned 0"
+                    VerticalOptions="Center"
+                        FontAttributes="Bold"
+                    />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout x:Name="SuitDisplay" HorizontalOptions="Center">
+                <Image Source="suit.jpg"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                />
+                <Button
+                    x:Name="SuitButton"
+                    Text="Suit | 1500 ghosts"
+                    Clicked="SuitButton_Clicked"
+                    BackgroundColor="GhostWhite"
+                    TextColor="Black"
+                    />
+                <Label
+                    x:Name="SuitLabel"
+                    Text="Owned 0"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"
+                    />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        
+    </AbsoluteLayout>
+</ContentPage>

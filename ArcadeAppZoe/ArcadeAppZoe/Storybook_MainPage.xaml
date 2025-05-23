@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppZoe.Storybook_MainPage"
+             Title="Storybook_MainPage">
+
+    <ScrollView x:Name="scrollview">
+        <VerticalStackLayout>
+            <Grid x:Name="Page_1">
+                <Image
+                 x:Name="Page_1_IMG"
+                 Source="harrypotter.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="FillAndExpand"
+                 MaximumHeightRequest="720"
+            />
+                <Button
+            x:Name="Page_1_ToggleButton"
+            Text="Toggle Text"
+            WidthRequest="500"
+            HeightRequest="40"
+            BackgroundColor="LightGray"
+            TextColor="Black"
+            FontSize="15"
+            VerticalOptions="Start"
+            Margin="0, 10, 0, 0"
+            Clicked="Page_1_ToggleButton_Clicked"
+            />
+                <Border
+               x:Name="Page_1_TextBox"
+              WidthRequest="500"
+              HeightRequest="200"
+              BackgroundColor="DarkViolet"
+              Stroke="Black"
+              StrokeThickness="3"
+              StrokeShape="RoundRectangle 40,0,0,40"
+              VerticalOptions="Start"
+              Margin="0, 80, 0, 0"
+             >
+                    <Label
+                 x:Name="Page_1_Text"
+            TextColor="Black"
+            Text="Congratulations!You've been invited to join the whimsical fantastic school of witches and wizards,HOGWARTS what do you first?"
+            FontSize="24"
+            Padding="10"
+            />
+                </Border>
+                <Button
+            x:Name="Page_1_Choice1"
+            Text="Eat"
+            WidthRequest="300"
+            HeightRequest="75"
+            BackgroundColor="LightGray"
+            TextColor="Black"
+            FontSize="20"
+            VerticalOptions="End"
+            Margin="0, 0, 0, 200"
+            Clicked="Page_1_Choice1_Clicked"
+            />
+                <Button
+                    x:Name="Page_1_Choice2"
+                    Text="Get Sorted into a house"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 100"
+                    Clicked="Page_1_Choice2_Clicked"
+                />
+            </Grid>
+
+            <Grid x:Name="Page_2a" IsVisible="false">
+                <Image
+                 x:Name="Page_2a_IMG"
+                 Source="harrypotter.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="FillAndExpand"
+                 MaximumHeightRequest="750"
+                 />
+                <Border
+                x:Name="Page_2a_TextBox"
+               WidthRequest="500"
+               HeightRequest="350"
+               BackgroundColor="DarkViolet"
+               Stroke="Black"
+               StrokeThickness="3"
+               StrokeShape="RoundRectangle 40,0,0,40"
+               VerticalOptions="Start"
+               Margin="0, 80, 0, 0"
+                >
+                    <Label
+                 x:Name="Page_2a_Text"
+                 TextColor="Black"
+                 Text="OH,NO!Professor Dumbledore called your name and you didn't hear it and its already the end of the day so you can't get sorted into a house.So professor Dumbledore gets mad and banishes you from hogwarts,so you live with your evil parents never to be seen again."
+                 FontSize="24"
+                 Padding="10"
+                />
+                </Border>
+
+                <Button
+            x:Name="Ending1"
+            Text="Restart"
+            WidthRequest="300"
+            HeightRequest="75"
+            BackgroundColor="LightGray"
+            TextColor="Black"
+            FontSize="20"
+            VerticalOptions="End"
+            Margin="0, 0, 0, 100"
+                    Clicked="Ending1_Clicked"
+            />
+
+            </Grid>
+
+            <Grid x:Name="Page_2b" IsVisible="false">
+                <Image
+                    x:Name="Page_2b_IMG"
+                    Source="harrypotter.jpg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    MaximumHeightRequest="720"
+                />
+                <Button
+                    x:Name="Page_2b_ToggleButton"
+                    Text="Toggle Text"
+                    WidthRequest="500"
+                    HeightRequest="40"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="15"
+                    VerticalOptions="Start"
+                    Margin="0, 10, 0, 0"
+                    Clicked="Page_2b_ToggleButton_Clicked"
+                />
+                <Border
+                    x:Name="Page_2b_TextBox"
+                    WidthRequest="500"
+                    HeightRequest="200"
+                    BackgroundColor="DarkViolet"
+                    Stroke="Black"
+                    StrokeThickness="3"
+                    StrokeShape="RoundRectangle 40,0,0,40"
+                    VerticalOptions="Start"
+                    Margin="0, 80, 0, 0"
+                >
+                    <Label
+                        x:Name="Page_2b_Text"
+                        TextColor="Black"
+                        Text="Congratulations you are ravenclaw! Now you will proseed to your chamber."
+                        FontSize="24"
+                        Padding="10"
+                    />
+                </Border>
+                <Button
+                    x:Name="Page_2b_Choice1"
+                    Text="sleep."
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 200"
+                    Clicked="Page_2b_Choice1_Clicked"
+                />
+                <Button
+                    x:Name="Page_2b_Choice2"
+                    Text="sneak off to find the chamber of secrets."
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="14"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 100"
+                    Clicked="Page_2b_Choice2_Clicked"
+                />
+            </Grid>
+
+            <Grid x:Name="Page_3a" IsVisible="false">
+                <Image
+                 x:Name="Page_3a_IMG"
+                 Source="harrypotter.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="FillAndExpand"
+                 MaximumHeightRequest="750"
+                 />
+                <Border
+                x:Name="Page_3a_TextBox"
+               WidthRequest="500"
+               HeightRequest="350"
+               BackgroundColor="DarkViolet"
+               Stroke="Black"
+               StrokeThickness="3"
+               StrokeShape="RoundRectangle 40,0,0,40"
+               VerticalOptions="Start"
+               Margin="0, 80, 0, 0"
+                >
+                    <Label
+                 x:Name="Page_3a_Text"
+                 TextColor="Black"
+                 Text="OH NO!Lord Voldemort killed you,you are now a victim of Lord Voldemort."
+                 FontSize="24"
+                 Padding="10"
+                />
+                </Border>
+
+                <Button
+            x:Name="Ending2"
+            Text="Restart"
+            WidthRequest="300"
+            HeightRequest="75"
+            BackgroundColor="LightGray"
+            TextColor="Black"
+            FontSize="20"
+            VerticalOptions="End"
+            Margin="0, 0, 0, 100"
+                    Clicked="Ending2_Clicked"
+            />
+
+            </Grid>
+
+            <Grid x:Name="Page_3b" IsVisible="false">
+                <Image
+                    x:Name="Page_3b_IMG"
+                    Source="harrypotter.jpg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="FillAndExpand"
+                    MaximumHeightRequest="720"
+                />
+                <Button
+                    x:Name="Page_3b_ToggleButton"
+                    Text="Toggle Text"
+                    WidthRequest="500"
+                    HeightRequest="40"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="15"
+                    VerticalOptions="Start"
+                    Margin="0, 10, 0, 0"
+                    Clicked="Page_3b_ToggleButton_Clicked"
+                />
+                <Border
+                    x:Name="Page_3b_TextBox"
+                    WidthRequest="500"
+                    HeightRequest="200"
+                    BackgroundColor="DarkViolet"
+                    Stroke="Black"
+                    StrokeThickness="3"
+                    StrokeShape="RoundRectangle 40,0,0,40"
+                    VerticalOptions="Start"
+                    Margin="0, 80, 0, 0"
+                >
+                    <Label
+                        x:Name="Page_3b_Text"
+                        TextColor="Black"
+                        Text="you find the chamber of secrets all thanks to myrtle.BUT,oh no Lord Voldemort is there. "
+                        FontSize="24"
+                        Padding="10"
+                    />
+                </Border>
+                <Button
+                    x:Name="Page_3b_Choice1"
+                    Text="fight"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 200"
+                    Clicked="Page_3b_Choice1_Clicked"
+                />
+                <Button
+                    x:Name="Page_3b_Choice2"
+                    Text="forfeit"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 100"
+                    Clicked="Page_3b_Choice2_Clicked"   
+                />
+            </Grid>
+
+            <Grid x:Name="Page_4a" IsVisible="false">
+                <Image
+                 x:Name="Page_4a_IMG"
+                 Source="harrypotter.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="FillAndExpand"
+                 MaximumHeightRequest="750"
+                 />
+                
+                <Border
+                   x:Name="Page_4a_TextBox"
+                   WidthRequest="500"
+                   HeightRequest="350"
+                   BackgroundColor="DarkViolet"
+                   Stroke="Black"
+                   StrokeThickness="3"
+                   StrokeShape="RoundRectangle 40,0,0,40"
+                   VerticalOptions="Start"
+                   Margin="0, 80, 0, 0"
+                >
+                    <Label
+                     x:Name="Page_4a_Text"
+                     TextColor="Black"
+                     Text="You lose Voldemort destroyed you with magic"
+                     FontSize="24"
+                     Padding="10"
+                    />
+                </Border>
+
+                <Button
+                    x:Name="Ending3"
+                    Text="Restart"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 100"
+                    Clicked="Ending3_Clicked"
+                />
+
+            </Grid>
+
+            <Grid x:Name="Page_4b" IsVisible="false">
+                <Image
+                 x:Name="Page_4b_IMG"
+                 Source="vol.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="FillAndExpand"
+                 MaximumHeightRequest="750"
+                 />
+
+                <Border
+                   x:Name="Page_4b_TextBox"
+                   WidthRequest="500"
+                   HeightRequest="350"
+                   BackgroundColor="DarkViolet"
+                   Stroke="Black"
+                   StrokeThickness="3"
+                   StrokeShape="RoundRectangle 40,0,0,40"
+                   VerticalOptions="Start"
+                   Margin="0, 80, 0, 0"
+                >
+                    <Label
+                     x:Name="Page_4b_Text"
+                     TextColor="Black"
+                     Text="you win because you battled voldemort and won"
+                     FontSize="24"
+                     Padding="10"
+                    />
+                </Border>
+
+                <Button
+                    x:Name="Ending4"
+                    Text="Restart"
+                    WidthRequest="300"
+                    HeightRequest="75"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontSize="20"
+                    VerticalOptions="End"
+                    Margin="0, 0, 0, 100"
+                    Clicked="Ending4_Clicked"
+                />
+
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

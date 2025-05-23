@@ -1,0 +1,119 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ArcadeAppZoe
+build_property.ProjectDir = C:\Users\fishe\source\repos\ArcadeAppZoe\ArcadeAppZoe\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/checkers.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.checkers.xaml
+build_metadata.AdditionalFiles.TargetPath = checkers.xaml
+build_metadata.AdditionalFiles.RelativePath = checkers.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Ghost_Clicker_Game.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Ghost_Clicker_Game.xaml
+build_metadata.AdditionalFiles.TargetPath = Ghost_Clicker_Game.xaml
+build_metadata.AdditionalFiles.RelativePath = Ghost_Clicker_Game.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Inventory.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Inventory.xaml
+build_metadata.AdditionalFiles.TargetPath = Inventory.xaml
+build_metadata.AdditionalFiles.RelativePath = Inventory.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Platform_HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Platform_HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Platform_HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Platform_HomePage.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Platform_MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Platform_MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Platform_MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Platform_MainPage.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Pokemon_Cards.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Pokemon_Cards.xaml
+build_metadata.AdditionalFiles.TargetPath = Pokemon_Cards.xaml
+build_metadata.AdditionalFiles.RelativePath = Pokemon_Cards.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/SignUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.SignUp.xaml
+build_metadata.AdditionalFiles.TargetPath = SignUp.xaml
+build_metadata.AdditionalFiles.RelativePath = SignUp.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Storybook_HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Storybook_HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Storybook_HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Storybook_HomePage.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Storybook_MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Storybook_MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Storybook_MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Storybook_MainPage.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/TicTacToe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.TicTacToe.xaml
+build_metadata.AdditionalFiles.TargetPath = TicTacToe.xaml
+build_metadata.AdditionalFiles.RelativePath = TicTacToe.xaml
+
+[C:/Users/fishe/source/repos/ArcadeAppZoe/ArcadeAppZoe/Weather_App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ArcadeAppZoe.Weather_App.xaml
+build_metadata.AdditionalFiles.TargetPath = Weather_App.xaml
+build_metadata.AdditionalFiles.RelativePath = Weather_App.xaml

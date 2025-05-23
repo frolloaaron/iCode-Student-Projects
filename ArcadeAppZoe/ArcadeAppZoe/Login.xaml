@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppZoe.Login"
+             Title="Login"
+             BackgroundColor="BlueViolet">
+    <VerticalStackLayout>
+
+        <Label 
+            Text="Login"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Large"
+            
+            />
+        <Entry
+            x:Name="UsernameEntry"
+            Placeholder="Username: "
+            BackgroundColor="DarkOrchid" 
+            TextColor="Black"
+            WidthRequest="400"
+            HeightRequest="100"
+            VerticalOptions="End" 
+            HorizontalOptions="End"
+            />
+        <Entry
+            x:Name="PasswordEntry"
+            Placeholder="Password: "
+            BackgroundColor="DarkOrchid"
+            TextColor="Black"
+            WidthRequest="400"
+            HeightRequest="100"
+            VerticalOptions="End" 
+            HorizontalOptions="End"
+            />
+        <Button
+            x:Name= "LoginButton"
+            Text="Play!"
+            Clicked="LoginButton_Clicked"
+            WidthRequest="200"
+            HeightRequest="100"
+            />
+        <Button
+            x:Name="ToSignUpButton"
+            Clicked="ToSignUpButton_Clicked"
+            Text="Sign Up"
+            Background="DarkViolet"
+            />
+    </VerticalStackLayout>
+
+</ContentPage>

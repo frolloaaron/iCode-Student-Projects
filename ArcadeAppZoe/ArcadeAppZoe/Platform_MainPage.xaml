@@ -1,0 +1,47 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppZoe.Platform_MainPage"
+             Title="Platform_MainPage">
+
+    <AbsoluteLayout x:Name="Canvas" Background="snow">
+        <AbsoluteLayout.GestureRecognizers>
+            <TapGestureRecognizer
+                Tapped="TapGestureRecognizer_Tapped"
+                Buttons="Primary"/>
+
+        </AbsoluteLayout.GestureRecognizers>
+        <Grid
+            x:Name="gameGrid"
+            RowDefinitions="*,*,*,*,*"
+            ColumnDefinitions="*,*,*,*,*"
+            AbsoluteLayout.LayoutBounds="0, 0, 1.0, 0.9"
+            AbsoluteLayout.LayoutFlags="SizeProportional"
+            BackgroundColor="LightBlue"
+            />
+
+        <Button
+            x:Name="Start_Button"
+            Text="Play!"
+            TextColor="BlanchedAlmond"
+            FontSize="30"
+            BackgroundColor="WhiteSmoke"
+            Clicked="Start_Button_Clicked"
+            AbsoluteLayout.LayoutBounds="0.5, 1.0, 200, 0.1"
+            AbsoluteLayout.LayoutFlags="PositionProportional,HeightProportional"
+            />
+
+        <Button
+            x:Name="Reset_Button"
+            Text="Reset!"
+            TextColor="BlanchedAlmond"
+            FontSize="30"
+            BackgroundColor="WhiteSmoke"
+            Clicked="Reset_Button_Clicked"
+            AbsoluteLayout.LayoutBounds="1.0, 1.0, 200, 0.1"
+            AbsoluteLayout.LayoutFlags="PositionProportional,HeightProportional"
+            />
+
+    </AbsoluteLayout>
+
+
+</ContentPage>

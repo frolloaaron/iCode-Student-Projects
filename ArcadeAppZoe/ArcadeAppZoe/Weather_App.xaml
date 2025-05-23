@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArcadeAppZoe.Weather_App"
+             xmlns:vm="clr-namespace:ArcadeAppZoe.Models"
+             x:DataType="vm:WeatherInfo"
+             Title="Weather_App">
+    <VerticalStackLayout
+        BackgroundColor="DarkOrchid"
+        >
+        <Label 
+            HorizontalOptions="Center"
+            Text="Weather"
+            FontSize="Large"
+            />
+        <Entry
+            x:Name="CityEntry"
+            BackgroundColor="White"
+            Text="{Binding City}"
+            Placeholder="City"
+            WidthRequest="250"
+            HeightRequest="50"
+            Margin="30"
+        />
+
+        <Entry
+            x:Name="State_and_Country_Entry"
+            BackgroundColor="White"
+            Text="{Binding State_country}"
+            Placeholder="State/Country"
+            WidthRequest="250"
+            HeightRequest="50" />
+
+        <Button
+            Text="Get Weather"
+            x:Name="WeatherButton"
+            Command="{Binding GetWeatherInfoCommand}"
+            WidthRequest="300"
+            HeightRequest="75" 
+            Margin="30"
+            />
+
+        <Image
+            Source="{Binding Weather_icon}"
+            x:Name="WeatherImage"
+            HeightRequest="200"
+            WidthRequest="200"
+            />
+        <Label
+            x:Name="TempLabel"
+            HorizontalOptions="Center"
+            Text="{Binding Temperature}"
+            FontSize="Large"
+            />
+
+    </VerticalStackLayout>
+</ContentPage>
